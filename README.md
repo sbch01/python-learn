@@ -1,4 +1,4 @@
-#How to run python file in bash
+# How to run python file in bash
 
 1. You need in first line to give the path to the python directory
 2. To find where python is place use command *which* 
