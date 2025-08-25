@@ -28,3 +28,9 @@ high = 20
 volume = long * high * width
 
 print("The volume", volume)
+
+#Last example is for last printed expresion stored in _
+ratio = 100/2
+print("The ratio 100/2=", ratio)
+#print("The ratio * 2.4=", _ * 2.4) #if you uncoment the line you will see thath this will give you a error
+#but if you use it in python console this will print last printed variable
