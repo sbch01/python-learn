@@ -20,7 +20,7 @@ print('"Isn\'t," they said`')
 #Here is example of new line use in python
 
 #-----------------------------------------------------------
-print('C:\some\name') # here \n means newline!
+print('C:"\"some\name') # here \n means newline!
 
 print(r'C:\some\name''\n\n\n') # here \n is not printed beacause there is r (raw) in the front ofstring!
 #-----------------------------------------------------------
