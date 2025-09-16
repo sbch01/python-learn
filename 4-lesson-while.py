@@ -26,3 +26,11 @@ while a < 1000:
 	print (a, end=" ") #end operator used not to transfer output to new line
 	a, b = b, a + b 
 print()
+
+#Let's play with while loop once more and plot the power of two 
+#=============================================================
+
+a = 2
+while a < 65:
+	print("2^" ,a , "=" , 2**a )
+	a = a + 2
