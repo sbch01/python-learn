@@ -8,5 +8,5 @@
 
 # Directory description
 
-1. tutorial - is a brief python tutorial and some extended exampales ordered in file with name x.lesson-xxx-xxx-xxx.py
-2. book - is a playgrond with examples from book "Learning Python"
+1./tutorial - is a brief python tutorial and some extended exampales ordered in file with name x.lesson-xxx-xxx-xxx.py
+2./book - is a playgrond with examples from book "Learning Python"
