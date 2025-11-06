@@ -52,4 +52,18 @@ print(newlist)
 
 #index return list
 #--------------------------------------------
-print(newlist.index('stoian')) #return index number of stoian item in list
+print(newlist.index('atanas')) #return index number of stoian item in list
+
+#use list as stack
+#--------------------------------------------
+st = [2,3,6]
+st.append(4)
+st.append(8)
+print(st.pop())
+
+#use list as queues
+#--------------------------------------------
+from collections import deque #import some is like include in C it is necessery to use deque (double end queue) 
+qu = deque([3,6,8,2]) #create qu object of class deque
+print(qu.popleft())
+print(qu)
