@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 
 #defining function
-#this is fibonaci series  example for custom for variable lenght
+#this is Fibonacci series  example for custom for variable length
 
-#function with no return is caled prodcedure
+#function with no return is called procedure
 #====================================================================
 def fib (n):
 
@@ -16,7 +16,7 @@ def fib (n):
 #call the function
 fib(100)
 
-#function with return is caled function
+#function with return is called function
 #====================================================================
 def fib2 (n):
 
@@ -56,10 +56,10 @@ ask_ok('insert your second try:', 2,'once more try')
 #Here is example of passing lists and dictionary to the function
 #====================================================================
 
-#First of all lets creat list of names
+#First of all lets create list of names
 food_list = ['apple', 'pear', 'strawberry']
 
-#Let's creat a dictioanry
+#Let's create a dictionary
 person_info = {'name':'Stoian', 'Age': 40, 'Sex': 'Male'}
 
 #This is a function with three members
@@ -72,7 +72,7 @@ def print_list (food1,food2,food3):
 #Here we pass the members as list
 print_list (*food_list)
 
-#Her is subroutine print personal info dictonary
+#Her is subroutine print personal info dictionary
 def print_personal_info (**dic):
 	for kw in dic:
 		print(kw,':',dic[kw])

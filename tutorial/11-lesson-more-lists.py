@@ -3,7 +3,7 @@
 #Here is more about lists as a object 
 #We gone to play with some methods of list object
 
-#crete two list of names and animals
+#create two list of names and animals
 newlist = ["john","stoian","peter","stoian"]
 iterable = ['dog','cat','mouse']
 
@@ -21,7 +21,7 @@ print(newlist)
 newlist.extend(iterable) #adding list iterable to the first one newlist
 print(newlist)
 
-#isert on list
+#insert on list
 #--------------------------------------------
 newlist.insert(1, 'newname') #add newname member in list after first member in the list
 print(newlist)
@@ -63,7 +63,7 @@ print(st.pop())
 
 #use list as queues
 #--------------------------------------------
-from collections import deque #import some is like include in C it is necessery to use deque (double end queue) 
+from collections import deque #import some is like include in C it is necessary to use deque (double end queue) 
 qu = deque([3,6,8,2]) #create qu object of class deque
 print(qu.popleft())
 print(qu)

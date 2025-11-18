@@ -9,7 +9,7 @@ for n in range(2, 10):
 		# loop fell through without finding a factor
 		print(n, 'is a prime number')
 
-#There is more examples for exeptions in future of this tutorial
+#There is more examples for exceptions in future of this tutorial
 
 for i in range (2,10):
 	if i % 2 == 0:

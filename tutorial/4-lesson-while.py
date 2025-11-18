@@ -2,7 +2,7 @@
 
 #Here is some while loop example 
 
-#Plot Fibonachi series
+#Plot Fibonacci series
 #=============================================================
 a,b = 0, 1
 
@@ -10,7 +10,7 @@ while a < 10:
 	print (a)
 	a, b = b, a + b
  
-#Insert thre new line 
+#Insert three new line 
 #=============================================================
 
 for i in range(1,3): #more for loops in next lesson!
@@ -18,7 +18,7 @@ for i in range(1,3): #more for loops in next lesson!
 
 
 
-#Plot Fibonachi series on a single line tehnic
+#Plot Fibonacci series on a single line  
 #=============================================================
 a,b = 0, 1
 

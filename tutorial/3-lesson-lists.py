@@ -2,7 +2,7 @@
 
 #In this py file we will play with lists
 
-#lets creat a list of squares
+#lets create a list of squares
 squares = [1,4,9,16,25,36]
 
 #filtering of list example

@@ -1,15 +1,15 @@
 #!/usr/bin/python3
 
 #Here is more about lists as a object 
-#list comprehension is about automation creat list of some series in a ratianoal way
+#list comprehension is about automation create list of some series in a rational way
 
-#this creat list of numbers  square of two 
+#this create list of numbers  square of two 
 #--------------------------------------------
 squares = [x**2 for x in range(10)]
 print(squares)
 
 #The follow example do the same thing but with more command line
-#so is more rational to use statment above 
+#so is more rational to use statement above 
 #squares = []
 #	 for x in range(10):
 #		squares.append(x**2)
@@ -19,7 +19,7 @@ print(squares)
 #--------------------------------------------
 print([(x, y) for x in [1,2,3] for y in [3,1,4] if x != y])
 
-#here is a example for manipulation of lists in comprehenst way!
+#here is a example for manipulation of lists in comprehends way!
 #--------------------------------------------
 vec = [-3, -1, 1, 4, 6]
 print(vec)
@@ -27,7 +27,7 @@ print([x*2 for x in vec]) #here is double the numbers in vec
 print([abs(x) for x in vec]) #here make all numbers positive
 print([(x, x**2) for x in range(6)]) #create list of tuples
 
-#let creat the matrix
+#let create the matrix
 matrix = [[1,2,3,4],
           [5,6,7,8],
           [9,10,11,12]]
@@ -35,7 +35,7 @@ matrix = [[1,2,3,4],
 trans = [[row[i] for row in matrix] for i in range(4)] 
 print(trans)
 
-#del statment examples
+#del statement examples
 #--------------------------------------------
 a = [-1, 1, 66.25, 333, 333, 1234.5]
 del a[0]

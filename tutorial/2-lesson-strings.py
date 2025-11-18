@@ -22,10 +22,10 @@ print('"Isn\'t," they said`')
 #-----------------------------------------------------------
 print('C:"\"some\name') # here \n means newline!
 
-print(r'C:\some\name''\n\n\n') # here \n is not printed beacause there is r (raw) in the front ofstring!
+print(r'C:\some\name''\n\n\n') # here \n is not printed because there is r (raw) in the front of string!
 #-----------------------------------------------------------
 
-#Here is a example of """....""" tripale quotes
+#Here is a example of """....""" triple quotes
 #-----------------------------------------------------------
 print("""\
 Usage: thingy [OPTIONS]
@@ -42,7 +42,7 @@ FirstName = 'Stoian'
 print(FirstName + ' Banchev\n')
 #-----------------------------------------------------------
 
-#Here is example of how you can acess a single or multiple charter of string
+#Here is example of how you can access a single or multiple charter of string
 #-----------------------------------------------------------
 String = "Hello World"
 print(String,'\n')

@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-#Here is example of if statment
+#Here is example of if statement
 
 #Input a number
 x = int(input("Please enter an integer: "))

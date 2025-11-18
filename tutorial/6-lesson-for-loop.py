@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 #Examples of for loop
-#You will see that for loop in python is a lot more diffrent then C.
+#You will see that for loop in python is a lot more different then C.
 #==============================================
 
 #First example print members of array
@@ -13,7 +13,7 @@ for w in words:
 	print(w, len(w))
 print()
 
-#loop all list  and if length of some member is larger then 6 insert once more in the beginig of the list
+#loop all list  and if length of some member is larger then 6 insert once more in the beginning of the list
 #===============================================
 for w in words[:]:
 
@@ -31,7 +31,7 @@ for i in range(1,5):
 	print (i, end=" ")
 print("\n")
 
-#Here is little bit diffrent
+#Here is little bit different
 for i in range(5):
 
 	print(i, end=" ")
