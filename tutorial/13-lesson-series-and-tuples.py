@@ -17,7 +17,7 @@ my_tuple_next = 'apple', 'pear', 'strawberry'
 
 #adding is possible
 marriage = my_tuple + my_tuple_next
-print(manege)
+print(marriage)
 
 #subtraction is not possible its pick interpreter error uncomment to see the two row below
 #newresult = marriage - my_tuple
