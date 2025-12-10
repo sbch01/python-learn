@@ -1,0 +1,40 @@
+#!/usr/bin/python3
+
+#here is some example for dictionaries
+
+#create a simple dictionary of phone numbers with key name
+tel = {'jack': 4098, 'sape': 4139}
+
+#print the jack number
+print(tel['jack'])
+
+#add one more number and print whole dictionary
+tel['stoian'] = 1234
+print(tel)
+
+#delete member from tel
+del(tel['sape'])
+#and add some other
+tel['gosho'] = 5555
+
+#and now show only keys in dictionary (names) in tel
+print(list(tel))
+
+#here is printed sorted keys in dictionary
+print(sorted(tel))
+
+#you can put some logic test for dictionary key
+print('stoian' in tel)
+print('jack' not in tel)
+
+#create a dictionary with class constructor 
+tel2 = dict([('sape', 4139), ('guido', 4127), ('jack', 4098)])
+print(tel2)
+
+#comprehension is valid as well in dictionaries
+print({x: x**2 for x in (2, 4, 6)})
+
+#and in the last much more convenient way for construct dict class if
+#keys are strings
+tel3 = dict(sape=4139, guido=4127, jack=4098)
+print(tel3)
