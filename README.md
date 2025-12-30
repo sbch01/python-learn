@@ -9,5 +9,5 @@
 # Directory description
 
 1./tutorial - is a brief python tutorial and some extended examples ordered in file with name x.lesson-xxx-xxx-xxx.py
-
+	/__pycache__ -is folder auto create when use library we use fibo.py in our case
 2./book - is a playground with examples from book "Learning Python"
